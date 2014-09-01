@@ -46,8 +46,14 @@ Are you a developer want to contribute to develop this plugin? Go to <a href="ht
 1. Download the Header Image Uploader Plugin.
 2. In your WordPress Administration, go to Plugins > Add New > Upload, and select the plugin ZIP file.
 3. Activate the plugin.
-7. The image uploader meta box will appears on add/edit post.
+4. The image uploader meta box will appears on add/edit post.
 
+== Screenshots ==
+
+1. Uploader field
+2. WordPress media uploader
+3. Image uploaded
+4. Image selected
 
 == Changelog ==
 
