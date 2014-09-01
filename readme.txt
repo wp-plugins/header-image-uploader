@@ -24,9 +24,11 @@ A simple WP plugin that adds a meta box in your post admin to allow upload the h
 Printing the image output is very simple. Just use this code in your template file.
 
 <code>
-$id = get_post_meta($post->ID, 'imhy', true);
-$image = wp_get_attachment_image_src($id, 'full-size');
-echo $image;
+  <?php /*$image = get_post_meta(get_the_ID(), '$key', true); */
+			           $id = get_post_meta($post->ID, 'imhy', true);
+					   $image = wp_get_attachment_image_src($id, 'full-size');
+                      ?>
+                      <img src="<?php echo $image[0]; ?>" />
 </code>
 
 
