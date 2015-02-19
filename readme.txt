@@ -3,7 +3,7 @@
 Contributor: Imran Ahmed Khan  
 Tags: post, posts, uploader, meta box, custom meta box, image uploader, image, images   
 Requires at least: 3.0  
-Tested up to: 4.0  
+Tested up to: 4.1.1  
 Stable tag: 1.0
 License: GPLv2 or later  
 
